@@ -1,0 +1,6 @@
+feature,PSI,interpretation
+AVG_REPAYMENT_STATUS,0.0014307403160563831,Low population shift (rule-of-thumb)
+AGE,0.0011208222145208614,Low population shift (rule-of-thumb)
+CREDIT_UTILIZATION,0.001070384073324423,Low population shift (rule-of-thumb)
+LIMIT_BAL,0.0008857137944207687,Low population shift (rule-of-thumb)
+AVG_PAYMENT_AMOUNT,0.0006514431379381828,Low population shift (rule-of-thumb)
