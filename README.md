@@ -1,7 +1,6 @@
-
 # Credit Risk Modelling & Analytics Platform
 
-An educational end-to-end credit risk machine learning project built with Python, scikit-learn, XGBoost, Jupyter Notebook and Streamlit.
+End-to-End credit risk machine learning project built with Python, scikit-learn, XGBoost, Jupyter Notebook and Streamlit.
 
 ## Project objectives
 
@@ -55,18 +54,14 @@ Credit-Risk-ML/
 
 ## Setup (Windows PowerShell)
 
-```powershell
+```bash
 cd Credit-Risk-ML
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+python -m venv venv
+source venv/bin/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-If PowerShell blocks activation, use Command Prompt:
-```bat
-.venv\Scripts\activate.bat
-```
 
 ## Run notebooks
 
@@ -118,6 +113,6 @@ streamlit run dashboard/app.py
 - Add SHAP explanations and model documentation.
 - Add lifetime PD term structures and scenario-weighted discounted cash shortfalls for a properly governed IFRS 9 implementation.
 
-## Disclaimer
+## License
 
-This repository is for education and portfolio demonstration only. It is not financial advice, a regulated model, or a system for making real lending decisions.
+This project is licensed under the MIT License.
