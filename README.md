@@ -15,9 +15,9 @@ End-to-End credit risk machine learning project built with Python, scikit-learn,
 
 ## Dataset
 
-UCI Default of Credit Card Clients: https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
+- UCI Default of Credit Card Clients: https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
 
-The included raw ZIP is the dataset supplied for this project. It contains 30,000 historical Taiwan credit-card customer records. The target is whether the customer defaulted in the following month.
+- The included raw ZIP is the dataset supplied for this project. It contains 30,000 historical Taiwan credit-card customer records. The target is whether the customer defaulted in the following month.
 
 **Limitations:** this is not an Indian NBFC dataset and it is not a production credit underwriting dataset. The target is a next-month default indicator. It does not provide a reliable monthly observation timeline, contractual loan cash flows, lifetime default curves, initial-recognition risk, EIR, or macroeconomic scenarios needed for a production IFRS 9 engine.
 
@@ -52,7 +52,7 @@ Credit-Risk-ML/
 └── .gitignore
 ```
 
-## Setup (Windows PowerShell)
+## Setup (Ubuntu / WSL Terminal)
 
 ```bash
 cd Credit-Risk-ML
